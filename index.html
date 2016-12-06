@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>IMT</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+  
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-5">
+  <div class="panel panel-primary"> 
+  <div class="panel-heading">ИМТ калькулятор</div> 
+<div class="panel-body"> 
+<div class="form-group"> 
+<label for="mass">Вес</label> 
+<input type="number" min="1" step="0.5" class="form-control" id="mass" placeholder="Укажите вес в кг"> 
+</div> 
+<div class="form-group"> 
+<label for="height">Рост</label> 
+<input type="number" min"100" class="form-control" id="height" placeholder="Рост в см."> 
+</div> 
+<button id="getIMT" type="button" class="btn btn-success"> Узнать ИМТ</button> 
+<span id="imtResult"></span> 
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
